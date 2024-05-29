@@ -29,7 +29,7 @@ export default function Home () {
           orgánicas, los bloques fundamentales de la vida.
         </p>
         <div className='main__home-parallax bg-2' />
-        <p>Uno de los mayores retos a los que se ha enfrentado la ciencia:</p>
+        <h4 className='main__subtitle'>Uno de los mayores retos a los que se ha enfrentado la ciencia:</h4>
         <p>
           ¿Cuáles eran las probabilidades de que la vida surgiera en el tercer
           planeta de un sol que orbita dentro de uno de los brazos espirales de
@@ -44,7 +44,7 @@ export default function Home () {
           diversas teorías sobre cómo surgió la vida en la tierra.
         </p>
         <div className="main__home-container">
-          <Link href="teoria-2" className="main__home-link">
+          <Link href="sopa-primordial" className="main__home-link">
             Siguiente
           </Link>
         </div>

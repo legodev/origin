@@ -4,8 +4,8 @@ export const links = [
     href: './'
   },
   {
-    name: 'Teoría 1212',
-    href: 'teoria-1'
+    name: 'Sopa primordial',
+    href: 'sopa-primordial'
   },
   {
     name: 'Teoría 2',
