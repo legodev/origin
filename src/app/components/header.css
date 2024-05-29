@@ -117,10 +117,16 @@
 
 .main__home-container {
   display: flex;
-  justify-content: start;
+  justify-content: end;
 }
 
-.main__home-link {
+.main__navigation-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.main__link {
   padding: 10px 20px;
   border: 1px solid var(--black);
   border-radius: 5px;

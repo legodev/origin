@@ -95,11 +95,11 @@ export default function SopaPrimordial () {
           primitiva.
         </p>
       </div>
-      <div>
-        <Link href="/" className="main__home-link">
+      <div className='main__navigation-links'>
+        <Link href="/" className="main__link">
           Anterior
         </Link>
-        <Link href="/arcillas" className="main__home-link">
+        <Link href="/arcillas" className="main__link">
           Siguiente
         </Link>
       </div>
