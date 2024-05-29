@@ -8,11 +8,11 @@ export const links = [
     href: 'sopa-primordial'
   },
   {
-    name: 'Teoría 2',
-    href: 'teoria-2'
+    name: 'Arcillas',
+    href: 'arcillas'
   },
   {
-    name: 'Teoría 322222222',
+    name: 'Teoría 3',
     href: 'teoria-3'
   },
   {

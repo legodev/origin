@@ -1,9 +1,10 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import Charles from '../assets/darwin-charles.jpg'
 import Stanley from '../assets/stanley-miller.jpg'
 
 /* eslint-disable jsx-quotes */
-export default function SopaPrimordial() {
+export default function SopaPrimordial () {
   return (
     <section className="main">
       <h2 className="main__title">Teoría de la sopa primordial</h2>
@@ -93,6 +94,14 @@ export default function SopaPrimordial() {
           habrían destruido las moléculas necesarias para la vida en la Tierra
           primitiva.
         </p>
+      </div>
+      <div>
+        <Link href="/" className="main__home-link">
+          Anterior
+        </Link>
+        <Link href="/arcillas" className="main__home-link">
+          Siguiente
+        </Link>
       </div>
     </section>
   )
