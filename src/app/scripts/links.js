@@ -12,11 +12,11 @@ export const links = [
     href: 'arcillas'
   },
   {
-    name: 'Teoría 3',
-    href: 'teoria-3'
+    name: 'Fuentes hidrotermales',
+    href: 'fuentes-hidrotermales'
   },
   {
-    name: 'Teoría 4',
-    href: 'teoria-4'
+    name: 'Multiverso',
+    href: 'multiverso'
   }
 ]
