@@ -24,7 +24,7 @@ export default function SopaPrimordial () {
               src={Charles}
               alt="Charles Darwin"
               title="Charles Darwin"
-              className="main__soup-img charles"
+              className="main__soup-img charles zoom"
             />
           </figure>
         </div>
@@ -53,7 +53,7 @@ export default function SopaPrimordial () {
               src={Stanley}
               alt="Stanley Miller"
               title="Stanley Miller"
-              className="main__soup-img stanley"
+              className="main__soup-img stanley zoom"
             />
           </figure>
         </div>

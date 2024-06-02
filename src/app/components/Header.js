@@ -1,3 +1,4 @@
+/* eslint-disable jsx-quotes */
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
@@ -17,16 +18,24 @@ export default function Header () {
     }
   }
   return (
-    <header className='header'>
-      <div className='div__section-1'>
-        <nav className='nav container' role='navigation'>
-          <Link href='./' className='nav__logo link' role='button-logo'>
-            <Image src={icon} alt='icon' priority width={45} />
+    <header className="header">
+      <div className="div__section-1">
+        <nav className="nav container" role="navigation">
+          <Link href="./" className="nav__logo link" role="button-logo">
+            <Image src={icon} alt="icon" priority width={45} />
           </Link>
+          <ul className="nav__list-desktop">
+            {links.map((link) => (
+              <li className="nav__item" key={link.name}>
+                <Link href={link.href}>
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
           <ul className={`nav__list ${menu}`}>
             {links.map((link) => (
-              <li className='nav__item' key={link.name}>
-                {/* STYLES TO NAV AND FOOTER */}
+              <li className="nav__item" key={link.name}>
                 <Link onClick={open} href={link.href}>
                   {link.name}
                 </Link>
@@ -35,15 +44,15 @@ export default function Header () {
           </ul>
           <svg
             onClick={open}
-            className='nav__menu'
-            xmlns='http://www.w3.org/2000/svg'
-            width='24'
-            height='24'
-            viewBox='0 0 24 24'
+            className="nav__menu"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
           >
             <path
-              fill='currentColor'
-              d='M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z'
+              fill="currentColor"
+              d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"
             />
           </svg>
         </nav>

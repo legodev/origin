@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Multiverse from '../assets/multiverso-desktop.jpg'
 
-export default function Multiverso () {
+export default function Multiverso() {
   return (
     <section className="main">
       <h2 className="main__title">Teoría del multiverso</h2>
@@ -58,7 +58,15 @@ export default function Multiverso () {
           átomos, moléculas y estructuras biológicas de maneras completamente
           diferentes a las que observamos en nuestro propio universo.
         </p>
-        <Image className='main__multiverse-img' src={Multiverse} alt='Multiverse' title='Multiverse' width={300} />
+        <figure className='main__soup-figure'>
+          <Image
+            className="main__multiverse-img zoom"
+            src={Multiverse}
+            alt="Multiverse"
+            title="Multiverse"
+            width={300}
+          />
+        </figure>
         <p>
           Además teniendo en cuenta la teoría de las posibilidades, la cual era
           inviable por sus probabilidades tan absurdas. Al haber universos
