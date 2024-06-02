@@ -151,6 +151,10 @@
   font-weight: bold;
 }
 
+.last {
+  align-self: start;
+}
+
 .main__soup-container {
   display: flex;
   flex-direction: column;
