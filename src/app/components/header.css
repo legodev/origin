@@ -130,6 +130,12 @@
 .bg-7 {
   background-image: url(../assets/fuentes-2.jpeg);
 }
+.bg-8 {
+  background-image: url(../assets/multiverso-3.jpg);
+}
+.bg-9 {
+  background-image: url(../assets/multiverso-5.jpg);
+}
 
 .main__home-container {
   display: flex;
@@ -174,6 +180,11 @@
   border-radius: 10px;
 }
 
+.main__multiverse-img {
+  align-self: center;
+  mask-image: linear-gradient(black 60%, transparent);
+  border-radius: 10px;
+}
 .stanley__figure {
   width: 300px;
 }

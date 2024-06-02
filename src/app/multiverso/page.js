@@ -1,5 +1,7 @@
 /* eslint-disable jsx-quotes */
+import Image from 'next/image'
 import Link from 'next/link'
+import Multiverse from '../assets/multiverso-desktop.jpg'
 
 export default function Multiverso () {
   return (
@@ -13,6 +15,7 @@ export default function Multiverso () {
           la inflación cósmica, una propuesta para explicar ciertas
           características observadas en el universo temprano.
         </p>
+        <div className="main__home-parallax bg-8" />
         <p>
           Según la teoría inflacionaria, poco después del Big Bang, el universo
           experimentó una fase de expansión extremadamente rápida y uniforme.
@@ -28,6 +31,7 @@ export default function Multiverso () {
           estructuras que eventualmente se convertirían en galaxias y cúmulos de
           galaxias.
         </p>
+        <div className="main__home-parallax bg-9" />
         <p>
           La teoría del multiverso inflacionario sugiere que este proceso de
           inflación cósmica puede no haber sido un evento único, sino que podría
@@ -54,6 +58,7 @@ export default function Multiverso () {
           átomos, moléculas y estructuras biológicas de maneras completamente
           diferentes a las que observamos en nuestro propio universo.
         </p>
+        <Image className='main__multiverse-img' src={Multiverse} alt='Multiverse' title='Multiverse' width={300} />
         <p>
           Además teniendo en cuenta la teoría de las posibilidades, la cual era
           inviable por sus probabilidades tan absurdas. Al haber universos
