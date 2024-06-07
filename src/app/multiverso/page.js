@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Multiverse from '../assets/multiverso-desktop.jpg'
 
-export default function Multiverso() {
+export default function Multiverso () {
   return (
     <section className="main">
       <h2 className="main__title">Teoría del multiverso</h2>
