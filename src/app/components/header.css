@@ -173,6 +173,12 @@
   gap: 30px;
 }
 
+.main__divisor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .main__soup-figure {
   align-self: center;
   overflow: hidden;
@@ -268,5 +274,34 @@
 
   .zoom:hover {
     scale: 1.2;
+  }
+
+  .main__home {
+    gap: 50px;
+  }
+
+  .main__title {
+    margin: 60px 0;
+  }
+
+  .main__soup-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main__divisor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 50px;
+    flex: 1;
+  }
+
+  .main__paragraph {
+    width: 85%;
+  }
+
+  .main__soup-figure {
+    width: 300px;
   }
 }

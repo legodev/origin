@@ -9,16 +9,32 @@ export default function SopaPrimordial () {
     <section className="main">
       <h2 className="main__title">Teoría de la sopa primordial</h2>
       <div className="main__home">
-        <p>
-          Una de las teorías más aceptadas sobre el origen de la vida es la
-          teoría de la sopa primordial.
-        </p>
         <div className="main__soup-container">
-          <p>
-            En 1871, Charles Darwin escribió una carta en la que describía una
-            pequeña charca tibia repleta de las sustancias apropiadas para
-            generar vida.
-          </p>
+          <article className="main__divisor">
+            <p className="main__paragraph">
+              Una de las teorías más aceptadas sobre el origen de la vida es la
+              teoría de la sopa primordial.
+            </p>
+            <p className="main__paragraph">
+              En 1871, Charles Darwin escribió una carta en la que describía una
+              pequeña charca tibia repleta de las sustancias apropiadas para
+              generar vida.
+            </p>
+            <p className="main__paragraph">
+              Medio siglo después, en la década del 1920 el bioquímico ruso
+              Alexander Oparin expandió las ideas de Darwin. En su libro “El
+              origen de la vida”, teorizó sobre el caldo primordial y la
+              progresión gradual desde compuestos químicos simples a una célula
+              viva.
+            </p>
+            <p className="main__paragraph">
+              En 1952, la hipótesis fué puesta a prueba por Stanley Miller y
+              Harold Urey, el primero siendo un estudiante de posgrado de la
+              Universidad de Chicago, el cual se propuso a determinar si
+              realmente se podían producir los componentes de la vida a partir
+              de sustancias químicas simples.
+            </p>
+          </article>
           <figure className="main__soup-figure">
             <Image
               src={Charles}
@@ -28,26 +44,25 @@ export default function SopaPrimordial () {
             />
           </figure>
         </div>
-        <p>
-          Medio siglo después, en la década del 1920 el bioquímico ruso
-          Alexander Oparin expandió las ideas de Darwin. En su libro “El origen
-          de la vida”, teorizó sobre el caldo primordial y la progresión gradual
-          desde compuestos químicos simples a una célula viva.
-        </p>
-        <p>
-          En 1952, la hipótesis fué puesta a prueba por Stanley Miller y Harold
-          Urey, el primero siendo un estudiante de posgrado de la Universidad de
-          Chicago, el cual se propuso a determinar si realmente se podían
-          producir los componentes de la vida a partir de sustancias químicas
-          simples.
-        </p>
-
         <div className="main__soup-container">
-          <p>
-            Miller construyó un sistema de recipientes de vidrio simulando el
-            ciclo primigenio del agua e introdujo una mezcla de gases que
-            pretendía imitar la atmósfera de la Tierra primitiva.
-          </p>
+          <article className='main__divisor'>
+            <p className="main__paragraph">
+              Miller construyó un sistema de recipientes de vidrio simulando el
+              ciclo primigenio del agua e introdujo una mezcla de gases que
+              pretendía imitar la atmósfera de la Tierra primitiva.
+            </p>
+            <p className="main__paragraph">
+              Calentó los componentes, y cargó los gases con rayos y truenos,
+              chispas eléctricas con el fin de desencadenar una reacción
+              química. En pocos días se formó un fango parecido a la brea en el
+              recipiente.
+            </p>
+            <p className="main__paragraph">
+              Después de una semana, encontraron que se habían formado varios
+              compuestos orgánicos, incluyendo aminoácidos, que son los bloques
+              de construcción de las proteínas.
+            </p>
+          </article>
           <figure className="main__soup-figure stanley__figure">
             <Image
               src={Stanley}
@@ -57,17 +72,6 @@ export default function SopaPrimordial () {
             />
           </figure>
         </div>
-
-        <p>
-          Calentó los componentes, y cargó los gases con rayos y truenos,
-          chispas eléctricas con el fin de desencadenar una reacción química. En
-          pocos días se formó un fango parecido a la brea en el recipiente.
-        </p>
-        <p>
-          Después de una semana, encontraron que se habían formado varios
-          compuestos orgánicos, incluyendo aminoácidos, que son los bloques de
-          construcción de las proteínas.
-        </p>
         <p>
           En él, Miller identificó cuatro de los 20 aminoácidos que se
           encuentran en las proteínas, y por primera vez bajo condiciones
@@ -95,7 +99,7 @@ export default function SopaPrimordial () {
           primitiva.
         </p>
       </div>
-      <div className='main__navigation-links'>
+      <div className="main__navigation-links">
         <Link href="/" className="main__link">
           Anterior
         </Link>

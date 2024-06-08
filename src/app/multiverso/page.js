@@ -32,23 +32,36 @@ export default function Multiverso () {
           galaxias.
         </p>
         <div className="main__home-parallax bg-9" />
-        <p>
-          La teoría del multiverso inflacionario sugiere que este proceso de
-          inflación cósmica puede no haber sido un evento único, sino que podría
-          estar ocurriendo continuamente en diferentes partes del
-          espacio-tiempo. Como resultado, podrían formarse múltiples "burbujas"
-          de espacio-tiempo, cada una con sus propias leyes físicas y
-          condiciones iniciales.
-        </p>
-        <p>
-          Dentro de estas burbujas, las leyes de la física podrían variar de una
-          a otra, lo que significa que las constantes fundamentales y las
-          fuerzas que conocemos en nuestro propio universo podrían ser
-          diferentes en otros universos. Esto lleva a la idea de que podría
-          haber universos donde las condiciones son adecuadas para el
-          surgimiento de la vida tal como la conocemos, así como universos donde
-          las condiciones son radicalmente diferentes.
-        </p>
+        <div className="main__soup-container">
+          <article className="main__divisor">
+            <p className="main__paragraph">
+              La teoría del multiverso inflacionario sugiere que este proceso de
+              inflación cósmica puede no haber sido un evento único, sino que
+              podría estar ocurriendo continuamente en diferentes partes del
+              espacio-tiempo. Como resultado, podrían formarse múltiples
+              "burbujas" de espacio-tiempo, cada una con sus propias leyes
+              físicas y condiciones iniciales.
+            </p>
+            <p className="main__paragraph">
+              Dentro de estas burbujas, las leyes de la física podrían variar de
+              una a otra, lo que significa que las constantes fundamentales y
+              las fuerzas que conocemos en nuestro propio universo podrían ser
+              diferentes en otros universos. Esto lleva a la idea de que podría
+              haber universos donde las condiciones son adecuadas para el
+              surgimiento de la vida tal como la conocemos, así como universos
+              donde las condiciones son radicalmente diferentes.
+            </p>
+          </article>
+          <figure className="main__soup-figure">
+            <Image
+              className="main__multiverse-img zoom"
+              src={Multiverse}
+              alt="Multiverse"
+              title="Multiverse"
+              width={300}
+            />
+          </figure>
+        </div>
         <p>
           Algunos científicos han sugerido que si existen múltiples universos
           con diferentes condiciones, es posible que en algunos de ellos las
@@ -58,15 +71,6 @@ export default function Multiverso () {
           átomos, moléculas y estructuras biológicas de maneras completamente
           diferentes a las que observamos en nuestro propio universo.
         </p>
-        <figure className='main__soup-figure'>
-          <Image
-            className="main__multiverse-img zoom"
-            src={Multiverse}
-            alt="Multiverse"
-            title="Multiverse"
-            width={300}
-          />
-        </figure>
         <p>
           Además teniendo en cuenta la teoría de las posibilidades, la cual era
           inviable por sus probabilidades tan absurdas. Al haber universos
